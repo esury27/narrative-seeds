@@ -19,6 +19,8 @@ original passage
 
 How do large language models compress narratives into self-addressed memory messages, and how do message length and instruction type affect the fidelity of later reconstruction?
 
+(I hypothesize that emotional and stylistic fidelity degrade faster under high compression than concrete factual structures, and that semantic embeddings will insufficiently capture these phenomenological distinctions)
+
 ## Current MVP
 
 The MVP runs a full grid over:
