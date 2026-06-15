@@ -1,0 +1,21 @@
+{
+  "lengths": [50, 100, 200],
+  "instructions": [
+    {
+      "condition": "neutral",
+      "instruction": "Preserve the information most useful for faithful reconstruction."
+    },
+    {
+      "condition": "factual",
+      "instruction": "Prioritize concrete facts, events, names, objects, places, and sequence."
+    },
+    {
+      "condition": "emotional",
+      "instruction": "Prioritize emotional tone, atmosphere, affective arc, and inner experience."
+    },
+    {
+      "condition": "anomaly_preserving",
+      "instruction": "Prioritize strange, unexpected, distinctive, or schema-violating details."
+    }
+  ]
+}

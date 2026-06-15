@@ -1,0 +1,4 @@
+max_tokens,n,mean_cosine_similarity,min_cosine_similarity,max_cosine_similarity
+100,48,0.8411,0.6816,0.9554
+200,48,0.8798,0.6721,0.9661
+50,48,0.7737,0.6203,0.8861

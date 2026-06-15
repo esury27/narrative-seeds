@@ -1,0 +1,145 @@
+passage_id,passage_title,genre,condition,max_tokens,sender_model,receiver_model,cosine_similarity
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.766
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.7093
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.698
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.7191
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8457
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.7806
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.7603
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.8312
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.9014
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9261
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8647
+narrative_001,Bhadkeswar Temple,spiritual_autobiographical,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9399
+narrative_002,Parallel Existence,near_death_anomalous_memory,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.7705
+narrative_002,Parallel Existence,near_death_anomalous_memory,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.781
+narrative_002,Parallel Existence,near_death_anomalous_memory,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.6668
+narrative_002,Parallel Existence,near_death_anomalous_memory,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.65
+narrative_002,Parallel Existence,near_death_anomalous_memory,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8111
+narrative_002,Parallel Existence,near_death_anomalous_memory,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.752
+narrative_002,Parallel Existence,near_death_anomalous_memory,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.7727
+narrative_002,Parallel Existence,near_death_anomalous_memory,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.69
+narrative_002,Parallel Existence,near_death_anomalous_memory,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.852
+narrative_002,Parallel Existence,near_death_anomalous_memory,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.8611
+narrative_002,Parallel Existence,near_death_anomalous_memory,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.804
+narrative_002,Parallel Existence,near_death_anomalous_memory,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.8182
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.7719
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.7491
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.6912
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.6917
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.7795
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.793
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.7389
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.858
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.799
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.8669
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.828
+narrative_003,Secret Garden,stream_of_consciousness_spiritual,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.8485
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.84
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.8512
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.6203
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8357
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8655
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.8844
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.8164
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.9125
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.8464
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9202
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.6721
+narrative_004,Snow Farm Dream,dreamlike_violent_rupture,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.8495
+narrative_005,Grown Woman,philosophical_identity,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.748
+narrative_005,Grown Woman,philosophical_identity,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.7165
+narrative_005,Grown Woman,philosophical_identity,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.7489
+narrative_005,Grown Woman,philosophical_identity,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8052
+narrative_005,Grown Woman,philosophical_identity,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8278
+narrative_005,Grown Woman,philosophical_identity,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.7849
+narrative_005,Grown Woman,philosophical_identity,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.7184
+narrative_005,Grown Woman,philosophical_identity,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.7883
+narrative_005,Grown Woman,philosophical_identity,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.8689
+narrative_005,Grown Woman,philosophical_identity,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9105
+narrative_005,Grown Woman,philosophical_identity,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8064
+narrative_005,Grown Woman,philosophical_identity,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.8638
+narrative_006,Observers and Admirers,self_observer_projection,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.7102
+narrative_006,Observers and Admirers,self_observer_projection,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.7415
+narrative_006,Observers and Admirers,self_observer_projection,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.7701
+narrative_006,Observers and Admirers,self_observer_projection,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.7511
+narrative_006,Observers and Admirers,self_observer_projection,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8307
+narrative_006,Observers and Admirers,self_observer_projection,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.809
+narrative_006,Observers and Admirers,self_observer_projection,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.7153
+narrative_006,Observers and Admirers,self_observer_projection,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.8112
+narrative_006,Observers and Admirers,self_observer_projection,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.8034
+narrative_006,Observers and Admirers,self_observer_projection,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.8199
+narrative_006,Observers and Admirers,self_observer_projection,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.72
+narrative_006,Observers and Admirers,self_observer_projection,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.7917
+narrative_007,The Hospital Vending Machine,grief_medical,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.8703
+narrative_007,The Hospital Vending Machine,grief_medical,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.862
+narrative_007,The Hospital Vending Machine,grief_medical,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.6898
+narrative_007,The Hospital Vending Machine,grief_medical,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8495
+narrative_007,The Hospital Vending Machine,grief_medical,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.9335
+narrative_007,The Hospital Vending Machine,grief_medical,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.9344
+narrative_007,The Hospital Vending Machine,grief_medical,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.8409
+narrative_007,The Hospital Vending Machine,grief_medical,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.8381
+narrative_007,The Hospital Vending Machine,grief_medical,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.9183
+narrative_007,The Hospital Vending Machine,grief_medical,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9545
+narrative_007,The Hospital Vending Machine,grief_medical,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8916
+narrative_007,The Hospital Vending Machine,grief_medical,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9193
+narrative_008,The Neighbor’s Violin,ordinary_transformation,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.8545
+narrative_008,The Neighbor’s Violin,ordinary_transformation,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.837
+narrative_008,The Neighbor’s Violin,ordinary_transformation,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.7358
+narrative_008,The Neighbor’s Violin,ordinary_transformation,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8461
+narrative_008,The Neighbor’s Violin,ordinary_transformation,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.9554
+narrative_008,The Neighbor’s Violin,ordinary_transformation,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.9156
+narrative_008,The Neighbor’s Violin,ordinary_transformation,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.9042
+narrative_008,The Neighbor’s Violin,ordinary_transformation,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.9371
+narrative_008,The Neighbor’s Violin,ordinary_transformation,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.9451
+narrative_008,The Neighbor’s Violin,ordinary_transformation,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9416
+narrative_008,The Neighbor’s Violin,ordinary_transformation,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.9027
+narrative_008,The Neighbor’s Violin,ordinary_transformation,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9456
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.8229
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.8363
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.7371
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8289
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.9113
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.8803
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.8413
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.9309
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.9637
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9463
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8894
+narrative_009,Inventory of a Childhood Drawer,childhood_memory,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9661
+narrative_010,The Wrong Funeral,mistaken_grief,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.8049
+narrative_010,The Wrong Funeral,mistaken_grief,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.8209
+narrative_010,The Wrong Funeral,mistaken_grief,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.6511
+narrative_010,The Wrong Funeral,mistaken_grief,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.844
+narrative_010,The Wrong Funeral,mistaken_grief,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.916
+narrative_010,The Wrong Funeral,mistaken_grief,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.9425
+narrative_010,The Wrong Funeral,mistaken_grief,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.8227
+narrative_010,The Wrong Funeral,mistaken_grief,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.931
+narrative_010,The Wrong Funeral,mistaken_grief,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.9364
+narrative_010,The Wrong Funeral,mistaken_grief,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9556
+narrative_010,The Wrong Funeral,mistaken_grief,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8903
+narrative_010,The Wrong Funeral,mistaken_grief,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9458
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.7948
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.7861
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.6672
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8008
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8255
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.8808
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.6816
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.786
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.7859
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.8659
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8391
+narrative_011,Instructions for Becoming Ordinary,philosophical_experimental,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9073
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,neutral,50,gpt-4.1-mini,gpt-4.1-mini,0.8861
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,factual,50,gpt-4.1-mini,gpt-4.1-mini,0.8588
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,emotional,50,gpt-4.1-mini,gpt-4.1-mini,0.8037
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,anomaly_preserving,50,gpt-4.1-mini,gpt-4.1-mini,0.8445
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,neutral,100,gpt-4.1-mini,gpt-4.1-mini,0.8878
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,factual,100,gpt-4.1-mini,gpt-4.1-mini,0.9202
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,emotional,100,gpt-4.1-mini,gpt-4.1-mini,0.8557
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,anomaly_preserving,100,gpt-4.1-mini,gpt-4.1-mini,0.924
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,neutral,200,gpt-4.1-mini,gpt-4.1-mini,0.9511
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,factual,200,gpt-4.1-mini,gpt-4.1-mini,0.9597
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,emotional,200,gpt-4.1-mini,gpt-4.1-mini,0.8882
+narrative_012,The Deer at the Gas Station,uncanny_descriptive,anomaly_preserving,200,gpt-4.1-mini,gpt-4.1-mini,0.9381

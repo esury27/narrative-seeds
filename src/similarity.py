@@ -1,29 +1,75 @@
 import json
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+import csv
+import math
+from pathlib import Path
 
-with open("data/embeddings.json", "r") as f:
-    embeddings = json.load(f)
 
-fields = [
-    "original",
-    "summary_300",
-    "summary_100",
-    "summary_25",
-    "sentence",
-    "seed",
-    "regenerated_from_seed"
-]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-for narrative_id, narrative_embeddings in embeddings.items():
-    print(f"\nNarrative {narrative_id}")
-    print("-" * 40)
+EMBEDDINGS_PATH = PROJECT_ROOT / "data" / "embeddings.json"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "results" / "similarity_scores.csv"
 
-    original_vector = np.array(narrative_embeddings["original"]).reshape(1, -1)
 
-    for field in fields:
-        comparison_vector = np.array(narrative_embeddings[field]).reshape(1, -1)
+def cosine_similarity(vec_a, vec_b):
+    dot = sum(a * b for a, b in zip(vec_a, vec_b))
+    norm_a = math.sqrt(sum(a * a for a in vec_a))
+    norm_b = math.sqrt(sum(b * b for b in vec_b))
 
-        score = cosine_similarity(original_vector, comparison_vector)[0][0]
+    if norm_a == 0 or norm_b == 0:
+        return 0.0
 
-        print(f"original vs {field}: {score:.4f}")
+    return dot / (norm_a * norm_b)
+
+
+def main():
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(EMBEDDINGS_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    originals = data["originals"]
+    reconstructions = data["reconstructions"]
+
+    rows = []
+
+    for record in reconstructions:
+        passage_id = record["passage_id"]
+
+        original_embedding = originals[passage_id]["embedding"]
+        reconstruction_embedding = record["embedding"]
+
+        similarity = cosine_similarity(original_embedding, reconstruction_embedding)
+
+        rows.append({
+            "passage_id": passage_id,
+            "passage_title": record["passage_title"],
+            "genre": record["genre"],
+            "condition": record["condition"],
+            "max_tokens": record["max_tokens"],
+            "sender_model": record["sender_model"],
+            "receiver_model": record["receiver_model"],
+            "cosine_similarity": round(similarity, 4)
+        })
+
+    with open(OUTPUT_PATH, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "passage_id",
+                "passage_title",
+                "genre",
+                "condition",
+                "max_tokens",
+                "sender_model",
+                "receiver_model",
+                "cosine_similarity"
+            ]
+        )
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print(f"Done. Wrote similarity scores to {OUTPUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,5 @@
+condition,n,mean_cosine_similarity,min_cosine_similarity,max_cosine_similarity
+anomaly_preserving,36,0.8455,0.65,0.9661
+emotional,36,0.7762,0.6203,0.9042
+factual,36,0.8543,0.7093,0.9597
+neutral,36,0.85,0.7102,0.9637
