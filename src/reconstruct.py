@@ -12,6 +12,7 @@ MEMORY_MESSAGES_PATH = PROJECT_ROOT / "data" / "memory_messages.jsonl"
 OUTPUT_PATH = PROJECT_ROOT / "data" / "reconstructions.jsonl"
 
 MODEL = "gpt-4.1-mini"
+NUM_RECONSTRUCTIONS_PER_MEMORY = 3
 
 
 def load_jsonl(path):
@@ -64,32 +65,38 @@ def main():
 
     client = OpenAI()
 
-    total = len(memory_records)
+    total = len(memory_records) * NUM_RECONSTRUCTIONS_PER_MEMORY
+    count = 0
 
-    for i, record in enumerate(memory_records, start=1):
-        print(
-            f"[{i}/{total}] "
-            f"{record['passage_id']} | "
-            f"{record['condition']} | "
-            f"{record['max_tokens']} tokens"
-        )
+    for record in memory_records:
+        for reconstruction_id in range(1, NUM_RECONSTRUCTIONS_PER_MEMORY + 1):
+            count += 1
 
-        prompt = build_prompt(record["memory_message"])
-        reconstruction = reconstruct_text(client, prompt)
+            print(
+                f"[{count}/{total}] "
+                f"{record['passage_id']} | "
+                f"{record['condition']} | "
+                f"{record['max_tokens']} tokens | "
+                f"reconstruction {reconstruction_id}"
+            )
 
-        output_record = {
-            "passage_id": record["passage_id"],
-            "passage_title": record["passage_title"],
-            "genre": record["genre"],
-            "condition": record["condition"],
-            "max_tokens": record["max_tokens"],
-            "sender_model": record["sender_model"],
-            "receiver_model": MODEL,
-            "memory_message": record["memory_message"],
-            "reconstruction": reconstruction,
-        }
+            prompt = build_prompt(record["memory_message"])
+            reconstruction = reconstruct_text(client, prompt)
 
-        append_jsonl(OUTPUT_PATH, output_record)
+            output_record = {
+                "passage_id": record["passage_id"],
+                "passage_title": record["passage_title"],
+                "genre": record["genre"],
+                "condition": record["condition"],
+                "max_tokens": record["max_tokens"],
+                "sender_model": record["sender_model"],
+                "receiver_model": MODEL,
+                "reconstruction_id": reconstruction_id,
+                "memory_message": record["memory_message"],
+                "reconstruction": reconstruction,
+            }
+
+            append_jsonl(OUTPUT_PATH, output_record)
 
     print(f"\nDone. Wrote reconstructions to {OUTPUT_PATH}")
 
